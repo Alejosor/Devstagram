@@ -1,0 +1,35 @@
+# Laravel & PHP
+/vendor/
+/node_modules/
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+
+# Cache y logs
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*.log
+
+# IDEs y sistemas operativos
+/.idea
+/.vscode
+/.DS_Store
+Thumbs.db
+
+# Archivos de depuración y prueba
+*.log
+*.sql
+*.sqlite
+*.env.*
+.env.testing
+.phpstorm.meta.php
+.env.example
+
+# Archivos de implementación y de construcción
+Homestead.yaml
+Homestead.json
+.env.backup
+*.local
+*.cache
